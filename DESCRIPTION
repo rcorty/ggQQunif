@@ -1,7 +1,7 @@
 Package: ggQQunif
 Type: Package
 Title: Compare big datasets to the uniform distribution
-Version: 0.1.0
+Version: 0.1.3
 Authors@R: person("Robert", "Corty", email = "rcorty@gmail.com", role = c("aut", "cre"))
 Description: A quantile-quantile plot can be used to compare a sample of p-values 
   to the uniform distribution.  But when the dataset is big (i.e. > 1e4 p-values),
@@ -12,5 +12,6 @@ License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: scales,
-    ggplot2
+    ggplot2,
+    dplyr
 RoxygenNote: 6.0.1

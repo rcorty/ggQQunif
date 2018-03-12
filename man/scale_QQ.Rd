@@ -9,3 +9,6 @@ scale_x_QQ()
 
 scale_y_QQ()
 }
+\description{
+Scale the axes to show negative log 10 of the p-values.
+}

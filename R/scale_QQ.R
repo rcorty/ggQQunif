@@ -17,6 +17,8 @@ breaker <- function(bs) {
 #' @title scale_x_QQ
 #' @rdname scale_QQ
 #'
+#' @description Scale the axes to show negative log 10 of the p-values.
+#'
 #' @export
 #'
 scale_x_QQ <- function() {
