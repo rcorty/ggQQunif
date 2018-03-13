@@ -9,6 +9,10 @@ output:
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(ggQQunif)
+
+knitr::opts_chunk$set(
+  fig.path = "man/figures/README-"
+)
 ```
 
 # gg_QQ_unif

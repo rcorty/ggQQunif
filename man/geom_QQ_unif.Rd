@@ -38,7 +38,7 @@ library(ggplot2)
 library(dplyr)
 
 set.seed(27599)
-d <- data.frame(s = runif(n = 5e5))
+d <- data.frame(s = runif(n = 5e3))
 
 d \%>\%
 ggplot(mapping = aes(sample = s)) +

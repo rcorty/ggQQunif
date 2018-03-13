@@ -30,7 +30,7 @@ d %>%
   theme_minimal()
 ```
 
-![](README_files/figure-markdown_github/example1-1.png)
+![](man/figures/README-example1-1.png)
 
 This `geom` works with other aesthetics, too.
 
@@ -51,4 +51,4 @@ d %>%
   theme_minimal()
 ```
 
-![](README_files/figure-markdown_github/example2-1.png)
+![](man/figures/README-example2-1.png)
